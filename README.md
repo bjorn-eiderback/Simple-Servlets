@@ -61,7 +61,7 @@ src
             duke.waving.gif
 </pre>
         
- ##3. Skapa servleterna i katalogen hello
+ ##3. Skapa servletarna i katalogen hello
  <pre>
  package hello;
  @WebServlet("/greeting")
@@ -78,7 +78,7 @@ src
   duke.waving.gif
  </pre>
  
-##5. Efter att servern startat skriv följande i WebBrowser
+##5. Efter det att servern har startat skriv följande i WebBrowser
 <pre>
 http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/greeting
 </pre>
