@@ -82,3 +82,8 @@ src
 <pre>
 http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/greeting
 </pre>
+
+# Det finns också en del andra servletexempel
+1. Den trivialast möjliga servleten (Hello)
+1. en som räknar antal gånger som den öär anropad (Counter)
+1. samt några som illusterar redirect, post och cookies
