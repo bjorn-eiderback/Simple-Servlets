@@ -23,7 +23,7 @@ public class Counter extends HttpServlet {
 
     @Override
     public String getServletInfo() {
-        return "The most trivial servlet ever...";
+        return "A servlet with a counter";
 
     }
 }
