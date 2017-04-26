@@ -76,4 +76,9 @@ src
  ##4. bilden på Duke i katalogen images
  <pre>
   duke.waving.gif
- <pre>
+ </pre>
+ 
+##5. Efter att servern startat skriv följande i WebBrowser
+<pre>
+http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/greeting
+</pre>
