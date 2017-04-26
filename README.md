@@ -1,6 +1,8 @@
 # Simple-Servlets
-1. Skapa katalog med pom.xml på rotnivån
-   <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+**efter Java EE tutorial**
+##1. Skapa katalog med pom.xml på rotnivån
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.acme</groupId>
@@ -42,9 +44,10 @@
       </plugin>
     </plugins>
   </build>
-</project>
-
-2. Skapa följande katalog- och filstruktur
+ </project>
+```
+##2. Skapa följande katalog- och filstruktur
+<pre>
 src
   main
     java
@@ -54,9 +57,11 @@ src
     webapp
       resources
         images
-            duke.waving.gif        
+            duke.waving.gif
+</pre>
         
- 3. Skapa servleterna i katalogen hello
+ ##3. Skapa servleterna i katalogen hello
+ <pre>
  package hello;
  @WebServlet("/greeting")
  public class Greeting extends HttpServlet {
@@ -66,6 +71,8 @@ src
  @WebServlet("/response")
  public class ResponseServlet extends HttpServlet {
  ...
- 
- 4. bilden på Duke i katalogen images
+ </pre>
+ ##4. bilden på Duke i katalogen images
+ <pre>
   duke.waving.gif
+ <pre>
