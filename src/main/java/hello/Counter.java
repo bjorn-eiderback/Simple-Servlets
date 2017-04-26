@@ -17,7 +17,7 @@ public class Counter extends HttpServlet {
                       HttpServletResponse response)
             throws ServletException, IOException {
         try (PrintWriter out = response.getWriter()) {
-            out.println(Integer.valueOf(counter++).toString());
+            out.println(Integer.valueOf(counter++));
         }
     }
 
