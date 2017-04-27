@@ -30,6 +30,6 @@ public class FieldvaluesBean {
     }
 
     public boolean isValuesAssigned() {
-        return (fieldValue1 != null && fieldValue1.trim().length() > 0) && (fieldValue2 != null && fieldValue2.trim().length() > 0);
+        return (fieldValue1 != null && !fieldValue1.trim().isEmpty()) && (fieldValue2 != null && !fieldValue2.trim().isEmpty());
     }
 }
