@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/hello")
+@WebServlet({"/hello", "/"})
 public class Hello extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request,
