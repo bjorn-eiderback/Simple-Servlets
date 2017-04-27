@@ -26,10 +26,18 @@ public class FieldvaluesBean {
     }
 
     public String getKombo() {
-        return (fieldValue1 == null ? "":fieldValue1) + " kombinerad med " + (fieldValue2 == null ? "":fieldValue2);
+        return valueOrEmptyString(getFieldValue1()) + " kombinerad med " + valueOrEmptyString(getFieldValue2());
     }
 
     public boolean isValuesAssigned() {
-        return (fieldValue1 != null && !fieldValue1.trim().isEmpty()) && (fieldValue2 != null && !fieldValue2.trim().isEmpty());
+        return hasValue(getFieldValue1()) && hasValue(getFieldValue2());
+    }
+
+    private boolean hasValue(String value) {
+        return value != null && !value.trim().isEmpty();
+    }
+
+    private String valueOrEmptyString(String value) {
+        return value == null ? "":value;
     }
 }
