@@ -92,3 +92,7 @@ http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/greeting
     Starta genom att checka av @WebServlet-tagen<br/>
     för exempelvis @WebServlet("/helloposttrigger") blir det:<br/>
     http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/helloposttrigger
+    
+# Jag har också lagt in JSP-exempel i repot
+###Bönor i paketet beans
+###Jsp-sidorna under katalogen webapp
