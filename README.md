@@ -84,6 +84,11 @@ http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/greeting
 </pre>
 
 # Det finns också en del andra servletexempel
-1. Den trivialast möjliga servleten (Hello)
-1. En som räknar antal gånger som den anropats (Counter)
-1. Samt några som illusterar redirect, post och cookies
+1. Den trivialast möjliga servleten (Hello)<br/>
+    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/hello
+1. En som räknar antal gånger som den anropats (Counter)<br/>
+    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/counter
+1. Samt några som illusterar redirect, post och cookies<br/>
+    Start genom att checka av @WebServlet-tagen<br/>
+    för exempelvis @WebServlet("/helloposttrigger") blir det:<br/>
+    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/helloposttrigger
