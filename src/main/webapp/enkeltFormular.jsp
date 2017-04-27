@@ -8,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Yielding and Setting Values</title>
+        <title>Ge och visa fält samt en villkorad (kombo-) del</title>
     </head>
     <body>
     <jsp:useBean id="fieldValuesBean" scope="page" class="beans.FieldvaluesBean"/>
