@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 //Vi kan antingen skriva
-//    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/hello//
+//    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/hello
 // eller
 //    http://localhost:8080/trivial-servlets-1.0-SNAPSHOT/
 // För att trigga igång Hello.-servleten eftersom  vi givit båda namnen i @WebServlet
