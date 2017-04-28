@@ -24,6 +24,8 @@
         <br/>
         Aktuella värden:<br/>
         <jsp:getProperty name="fieldValuesBean" property="fieldValue1"/>
+        Alternativ syntax för samma sak:
+        <%= fieldValuesBean.getFieldValue1() %>
         <br/>
         <jsp:getProperty name="fieldValuesBean" property="fieldValue2"/>
         <br/>
